@@ -8,11 +8,9 @@ window.onload = function ()
         if (mytext==mytext1)
         {
             document.getElementById("myMessage").innerHTML = "your name is same";
-               
         }
         else
         {
-          
             document.getElementById("myMessage").innerHTML = "your name is valid for continue";
             document.getElementById("name").value=mytext+" "+mytext1;
         }
